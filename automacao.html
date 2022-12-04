@@ -39,7 +39,7 @@
             <div class="col-1">
             <img id="cozinha" src="./img/lampada-on.jpg" height="100" width="103">
             <br>
-            <button type="button" id="controle" onclick="ligarApagar(document.getElementById('cozinha'))">Ligar/Apagar</button>
+            <button class="btn btn-primary" type="button" id="controle" onclick="ligarApagar(document.getElementById('cozinha'))">COZINHA</button>
             <script>
               function ligarApagar(e){
                 e.src = "./img/lampada-"+( ~e.src.indexOf("-on") ? "off" : "on" )+".jpg";
@@ -51,7 +51,7 @@
             <div class="col-1">
             <img id="sala" src="./img/lampada-on.jpg" height="100" width="103">
             <br>
-            <button type="button" id="controle" onclick="ligarApagar(document.getElementById('sala'))">Ligar/Apagar</button>
+            <button class="btn btn-primary" type="button" id="controle" onclick="ligarApagar(document.getElementById('sala'))">SALA</button>
             <script>
               function ligarApagar(e){
                 e.src = "./img/lampada-"+( ~e.src.indexOf("-on") ? "off" : "on" )+".jpg";
@@ -61,39 +61,75 @@
             </div>
 
             <div class="col-1">
-            <img src="./img/lamp1.jpg" height="70" width="80" />
+            <img id="jantar" src="./img/lampada-on.jpg" height="100" width="103">
             <br>
-            <boton class="btn btn-primary">jantar</boton>
+            <button class="btn btn-primary" type="button" id="controle" onclick="ligarApagar(document.getElementById('jantar'))">JANTAR</button>
+            <script>
+              function ligarApagar(e){
+                e.src = "./img/lampada-"+( ~e.src.indexOf("-on") ? "off" : "on" )+".jpg";
+                document.querySelector("b").textContent = e.src;
+              }
+            </script>
             </div>
 
             <div class="col-1">
-                <img src="./img/lamp1.jpg"" height="70" width="80" />
-                <br>
-                <boton class="btn btn-primary">varanda</boton>
+              <img id="varanda" src="./img/lampada-on.jpg" height="100" width="103">
+              <br>
+              <button class="btn btn-primary" type="button" id="controle" onclick="ligarApagar(document.getElementById('varanda'))">VARANDA</button>
+              <script>
+                function ligarApagar(e){
+                  e.src = "./img/lampada-"+( ~e.src.indexOf("-on") ? "off" : "on" )+".jpg";
+                  document.querySelector("b").textContent = e.src;
+                }
+              </script>
             </div>
 
             <div class="col-1">
-                <img src="./img/lamp1.jpg" height="70" width="80" />
-                <br>
-                <boton class="btn btn-primary">suite m</boton>
+              <img id="suite m" src="./img/lampada-on.jpg" height="100" width="103">
+              <br>
+              <button class="btn btn-primary" type="button" id="controle" onclick="ligarApagar(document.getElementById('suite m'))">SUITE M</button>
+              <script>
+                function ligarApagar(e){
+                  e.src = "./img/lampada-"+( ~e.src.indexOf("-on") ? "off" : "on" )+".jpg";
+                  document.querySelector("b").textContent = e.src;
+                }
+              </script>
             </div>
 
             <div class="col-1">
-                <img src="./img/lamp1.jpg" height="70" width="80" />
-                <br>
-                <boton class="btn btn-primary">w.c m</boton>
+              <img id="w.c m" src="./img/lampada-on.jpg" height="100" width="103">
+              <br>
+              <button class="btn btn-primary" type="button" id="controle" onclick="ligarApagar(document.getElementById('w.c m'))">W.C M</button>
+              <script>
+                function ligarApagar(e){
+                  e.src = "./img/lampada-"+( ~e.src.indexOf("-on") ? "off" : "on" )+".jpg";
+                  document.querySelector("b").textContent = e.src;
+                }
+              </script>
             </div>
 
             <div class="col-1">
-                <img src="./img/lamp1.jpg" height="70" width="80" />
-                <br>
-                <boton class="btn btn-primary">suite r</boton>
+              <img id="suite r" src="./img/lampada-on.jpg" height="100" width="103">
+              <br>
+              <button class="btn btn-primary" type="button" id="controle" onclick="ligarApagar(document.getElementById('suite r'))">SUITE R</button>
+              <script>
+                function ligarApagar(e){
+                  e.src = "./img/lampada-"+( ~e.src.indexOf("-on") ? "off" : "on" )+".jpg";
+                  document.querySelector("b").textContent = e.src;
+                }
+              </script>
             </div>
 
             <div class="col-1">
-                <img src="./img/lamp1.jpg" height="70" width="80" />
-                <br>
-                <boton class="btn btn-primary">  w.c r    </boton>
+              <img id="w.c r" src="./img/lampada-on.jpg" height="100" width="103">
+              <br>
+              <button class="btn btn-primary" type="button" id="controle" onclick="ligarApagar(document.getElementById('w.c r'))">W.C R</button>
+              <script>
+                function ligarApagar(e){
+                  e.src = "./img/lampada-"+( ~e.src.indexOf("-on") ? "off" : "on" )+".jpg";
+                  document.querySelector("b").textContent = e.src;
+                }
+              </script>
             </div>
         </div>
     </div>
